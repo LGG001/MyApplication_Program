@@ -9,9 +9,10 @@
 
 ## STM32_KeyTest
 
-这是一个实用强，易于移植的按键长短按检测程序，可以检测多个按键的长按&短按。实现的硬件平台是以STM32F103C8T6为核心的STM32 Display Board V1.0开发板
+这是一个实用强，易于移植的按键长短按检测程序，可以检测多个按键的长按&短按。实现的硬件平台是以STM32F103C8T6为核心的STM32 Display Board V1.0开发板  
 
-硬件平台开源地址：[STM32 Display Board V1.0](https://github.com/LGG001/LCEDA_Hardware)
+硬件平台开源地址：[STM32 Display Board V1.0](https://github.com/LGG001/LCEDA_Hardware)  
+
 源码分析文章地址：[MCU程序设计-按键长短按检测](https://lgg001.github.io/2018/10/30/MCU%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1-%E6%8C%89%E9%94%AE%E9%95%BF%E7%9F%AD%E6%8C%89%E6%A3%80%E6%B5%8B/#more)
 
 
