@@ -27,3 +27,14 @@ Thermal Printer MainBoard V1.0的资源非常丰富
 ### 00_LED_Blink
 
 功能：使用位带和位与（^）操作进行IO口取反实现LED1&LED闪烁  
+
+### 01_KEY_Detection
+
+功能：实现按键的长短按检测  
+效果：
+```
+LEFT按键短按-LED1亮  		RIGHT按键短按-LED1亮  
+ENTER按键短按-LED1灭		EXIT按键短按-LED1灭
+LEFT按键长按-LED2亮  		RIGHT按键长按-LED2亮  
+ENTER按键长按-LED2灭		EXIT按键长按-LED2灭
+```
