@@ -24,4 +24,6 @@ Thermal Printer MainBoard V1.0的资源非常丰富
 
 ## 例程列表及功能
 
+### 00_LED_Blink
 
+功能：使用位带和位与（^）操作进行IO口取反实现LED1&LED闪烁  
