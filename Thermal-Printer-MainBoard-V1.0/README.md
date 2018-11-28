@@ -38,3 +38,13 @@ ENTER按键短按-LED1灭		EXIT按键短按-LED1灭
 LEFT按键长按-LED2亮  		RIGHT按键长按-LED2亮  
 ENTER按键长按-LED2灭		EXIT按键长按-LED2灭
 ```
+
+### 02_USART_Printf
+
+功能：实现串口printf打印  
+效果：
+```
+LED1&LED2闪烁，串口打印：USART_Test! 
+串口配置：1停止位、8数据位、波特率115200、无奇偶校验
+```
+
