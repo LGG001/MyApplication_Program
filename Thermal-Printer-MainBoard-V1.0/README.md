@@ -48,3 +48,11 @@ LED1&LED2闪烁，串口打印：USART_Test!
 串口配置：1停止位、8数据位、波特率115200、无奇偶校验
 ```
 
+### 03_uGUI_Display
+
+功能：移植uGUI来控制IPS显示屏显示
+效果：  
+```
+显示屏显示，	LEFT按键短按-LED1亮		RIGHT按键短按-LED2亮
+		  	ENTER按键短按-LED1灭		EXIT按键短按-LED2灭
+```
