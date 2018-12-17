@@ -56,3 +56,19 @@ LED1&LED2闪烁，串口打印：USART_Test!
 显示屏显示，	LEFT按键短按-LED1亮		RIGHT按键短按-LED2亮
 		  	ENTER按键短按-LED1灭		EXIT按键短按-LED2灭
 ```
+
+### 04_SPI_Flash
+
+功能：对板子上的FLASH(W25Q64)进行读写操作  
+效果：  
+```
+上电读取FLASH的ID：  
+-成功打印-W25Q64 Init Succeed !!  
+-失败打印-W25Q64 Init Faile !!  
+按下LEFT键：  
+-LED1亮，LED2灭，对FLASH写入"ADCDEF"后打印：Weite Succeed !!  
+按下RIGHT键：  
+-LED2亮，LED1灭，对FLASH读取写入的"ABCDEF"并打印  
+```
+
+
