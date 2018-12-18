@@ -71,4 +71,17 @@ LED1&LED2闪烁，串口打印：USART_Test!
 -LED2亮，LED1灭，对FLASH读取写入的"ABCDEF"并打印  
 ```
 
+### 05_WWDG_Reset  
+
+功能：实现窗口看门狗，用于监视MCU正常运行 
+效果：  
+```
+WWDG配置：窗口值0x7f,最大喂狗时间约为57ms
+按下LEFT键：  
+-延迟200ms，导致WWDG复位，系统重新运行，检测WWDG复位标志，LED2亮，串口打印"WWDG RESET!!!"  
+按下RIGHT键： 
+-LED2灭 
+```
+
+
 
